@@ -1,5 +1,6 @@
-s('pip install pymongo')
 from os import system as s
+s('pip install pymongo')
+
 s('pip install termcolor')
 s('pip install dnspython')
 import pymongo
