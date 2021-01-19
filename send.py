@@ -1,9 +1,10 @@
 s('pip install pymongo')
+from os import system as s
 s('pip install termcolor')
 s('pip install dnspython')
 import pymongo
 from termcolor import colored
-from os import system as s
+
 from datetime import datetime
 
 
