@@ -1,10 +1,11 @@
+s('pip install pymongo')
+s('pip install termcolor')
+s('pip install dnspython')
 import pymongo
 from termcolor import colored
 from os import system as s
 from datetime import datetime
-s('pip install pymongo')
-s('pip install termcolor')
-s('pip install dnspython')
+
 
 url = 'mongodb+srv://NoOne:Something@cluster0.dhplg.mongodb.net/Cluster0?retryWrites=true&w=majority'
 
