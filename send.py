@@ -1,8 +1,16 @@
 from os import system as s
 
-s('pip install pymongo')
-s('pip install termcolor')
-s('pip install dnspython')
+import platform
+if str(platform.system()) == 'Linux':
+    s('pip install pymongo')
+    s('pip install termcolor')
+    s('pip install dnspython')
+else:
+    s('pip install pymongo')
+    s('pip install termcolor')
+    s('pip install dnspython')
+
+
 
 import pymongo
 from termcolor import colored
