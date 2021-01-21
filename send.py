@@ -1,6 +1,7 @@
 from os import system as s
 
 import platform
+print(str(platform.system()))
 if str(platform.system()) == 'Linux':
     s('pip install pymongo')
     s('pip install termcolor')
