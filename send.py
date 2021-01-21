@@ -1,8 +1,8 @@
 from os import system as s
 
 import platform
-print(str(platform.system()))
-if str(platform.system()).lower() == 'linux':
+print(str(platform.system()).lower())
+if str(platform.system()).lower() == "'linux'":
     s('pip install pymongo')
     s('pip install termcolor')
     s('pip install dnspython')
