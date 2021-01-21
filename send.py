@@ -17,7 +17,7 @@ from termcolor import colored
 
 from datetime import datetime
 
-s('git pull origin master')
+s('git pull origin main')
 
 
 
