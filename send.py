@@ -31,7 +31,7 @@ all = db.find()
 time = datetime.now().strftime('%X')
 for messages in all:
     try:
-        if date != messages['date']:
+        if date != messages['all']:
             print(f"""{messages['date']}""", 'red')
         else:
             print(colored("From: ", "yellow"), messages['id'])
