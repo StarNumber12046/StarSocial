@@ -1,2 +1,3 @@
 # To do
-- Add the complete linux support
+- ~~Add the complete linux support~~
+
